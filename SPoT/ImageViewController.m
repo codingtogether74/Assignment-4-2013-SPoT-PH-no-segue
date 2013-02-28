@@ -93,7 +93,6 @@
     return self.imageView;
 }
 
-//- (void)viewWillLayoutSubviews {
 - (void)viewDidLayoutSubviews{
 	// Zoom the image to fill up the view
 	if (self.imageView) [self fillView];    
@@ -105,10 +104,11 @@
         float wScale = self.view.bounds.size.width / self.imageView.bounds.size.width;
         float hScale = self.view.bounds.size.height / self.imageView.bounds.size.height;
         self.scrollView.zoomScale = MAX(wScale, hScale);
-    NSLog(@"viewWillLayoutSubviews - Width: %d, Height: %d, Min Zoom Scale: %f",
-          (int)self.view.bounds.size.width,
-          (int)self.view.bounds.size.height,
-          self.scrollView.zoomScale);
+/*       NSLog(@"viewWillLayoutSubviews - Width: %d, Height: %d, Min Zoom Scale: %f",
+             (int)self.view.bounds.size.width,
+             (int)self.view.bounds.size.height,
+             self.scrollView.zoomScale);
+ */
    }
 }
 

@@ -178,7 +178,7 @@
             </objects>
             <point key="canvasLocation" x="363" y="450"/>
         </scene>
-        <!--ResentsTVC - Resent Photos-->
+        <!--ResentsTVC - Photos-->
         <scene sceneID="PCJ-WK-Za5">
             <objects>
                 <tableViewController id="Xxw-ca-96n" customClass="ResentsTVC" sceneMemberID="viewController">
@@ -219,7 +219,7 @@
                             <outlet property="delegate" destination="Xxw-ca-96n" id="kBE-LV-yeO"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Resent Photos" id="VuS-uv-ttF"/>
+                    <navigationItem key="navigationItem" title="Photos" id="VuS-uv-ttF"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cpg-SX-9AJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -227,7 +227,7 @@
         </scene>
     </scenes>
     <classes>
-        <class className="FlickrPhotoTVC" superclassName="RotatableViewController">
+        <class className="FlickrPhotoTVC" superclassName="SplitViewsManager">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/FlickrPhotoTVC.h"/>
         </class>
         <class className="ImageViewController" superclassName="UIViewController">
@@ -244,8 +244,8 @@
         <class className="ResentsTVC" superclassName="FlickrPhotoTVC">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ResentsTVC.h"/>
         </class>
-        <class className="RotatableViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/RotatableViewController.h"/>
+        <class className="SplitViewsManager" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SplitViewsManager.h"/>
         </class>
         <class className="StanfordTagsTVC" superclassName="UITableViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/StanfordTagsTVC.h"/>

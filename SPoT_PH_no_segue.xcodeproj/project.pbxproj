@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E4A4794416DCFED300B2FD81 /* RotatableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A4794216DCFED300B2FD81 /* RotatableViewController.m */; };
+		E4918EA116DF984F0079DC4E /* SplitViewsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E4918EA016DF984F0079DC4E /* SplitViewsManager.m */; };
 		E4D4826916D7DCE700B65345 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4D4826816D7DCE700B65345 /* UIKit.framework */; };
 		E4D4826B16D7DCE700B65345 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4D4826A16D7DCE700B65345 /* Foundation.framework */; };
 		E4D4826D16D7DCE700B65345 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4D4826C16D7DCE700B65345 /* CoreGraphics.framework */; };
@@ -29,8 +29,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E4A4794116DCFED300B2FD81 /* RotatableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotatableViewController.h; sourceTree = "<group>"; };
-		E4A4794216DCFED300B2FD81 /* RotatableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotatableViewController.m; sourceTree = "<group>"; };
+		E4918EA016DF984F0079DC4E /* SplitViewsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplitViewsManager.m; sourceTree = "<group>"; };
+		E4918EA216DF98A20079DC4E /* SplitViewsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplitViewsManager.h; sourceTree = "<group>"; };
 		E4A4794316DCFED300B2FD81 /* SplitViewBarButtonItemPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplitViewBarButtonItemPresenter.h; sourceTree = "<group>"; };
 		E4D4826516D7DCE700B65345 /* SPoT_PH_no_segue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SPoT_PH_no_segue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4D4826816D7DCE700B65345 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -111,8 +111,8 @@
 				E4D4829916D7DD9A00B65345 /* FlickrFetcher */,
 				E4D4828B16D7DD4600B65345 /* iPhone.storyboard */,
 				E4D482AD16D8E28B00B65345 /* iPad.storyboard */,
-				E4A4794116DCFED300B2FD81 /* RotatableViewController.h */,
-				E4A4794216DCFED300B2FD81 /* RotatableViewController.m */,
+				E4918EA216DF98A20079DC4E /* SplitViewsManager.h */,
+				E4918EA016DF984F0079DC4E /* SplitViewsManager.m */,
 				E4A4794316DCFED300B2FD81 /* SplitViewBarButtonItemPresenter.h */,
 				E4D482B516D8F21700B65345 /* AttributedStringViewController.h */,
 				E4D482B616D8F21700B65345 /* AttributedStringViewController.m */,
@@ -233,7 +233,7 @@
 				E4D482A616D8B30C00B65345 /* RecentsUserDefaults.m in Sources */,
 				E4D482AC16D8BA1000B65345 /* ResentsTVC.m in Sources */,
 				E4D482B716D8F21700B65345 /* AttributedStringViewController.m in Sources */,
-				E4A4794416DCFED300B2FD81 /* RotatableViewController.m in Sources */,
+				E4918EA116DF984F0079DC4E /* SplitViewsManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

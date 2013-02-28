@@ -8,9 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import "ImageViewController.h"
-#import "RotatableViewController.h"
+#import "SplitViewsManager.h"
 
-@interface FlickrPhotoTVC : RotatableViewController
+@interface FlickrPhotoTVC : SplitViewsManager
 @property (nonatomic,strong) NSArray *photos; // of NSDictionary
 
 @end
